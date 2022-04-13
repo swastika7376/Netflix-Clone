@@ -11,22 +11,16 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Netflix</title>
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <div class="navbar__brand">
+        <div class="navbar_netflix">
           <img
             src="images/logo.png"
             alt="Netflix"
-            class="brand__logo"
+            class="netflix_logo"
           />
         </div>
 
@@ -37,7 +31,7 @@
               <select
                 name="languages"
                 id="languagesSelect"
-                class="language__drop__down"
+                class="language_drop_down"
               >
                 <option value="english" selected>English</option>
                 <option value="hindi">Hindi</option>
@@ -68,17 +62,18 @@
 
         <div class="hero__card">
           <h1 class="hero__title">
-            Unlimited Movies TV,<br />
-            Shows and More.
+            Unlimited movies, TV<br />
+            shows and more.
           </h1>
-          <p class="hero__subtitle">Watch anywhere and cancel anytime.</p>
-          <p class="hero__description">
+          <h2><class="hero__subtitle"> Watch anywhere. Cancel anytime.</h2><br> 
+          <p class="hero__description"><nobr>
             Ready to watch? Enter your email to create or restart your membership .
-          </p>
+          </nobr>
+          <br><br>
+          <nobr><input type="email" placeholder="Email address" class="email"><button class="get_started">Get Started ></button></nobr>
+        </p>
         </div>
       </section>
     </main>
-
-    <script src="src/index.js"></script>
   </body>
 </html>

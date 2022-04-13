@@ -20,17 +20,17 @@ body {
   z-index: 10;
 }
 
-.navbar__brand {
-  width: 100px;
+.navbar_netflix {
+  width: 125px;
   height: 100%;
 }
 
-.brand__logo {
+.netflix_logo {
   width: 100%;
   height: 100%;
 }
 
-.language__drop__down {
+.language_drop_down {
   background: transparent;
   border: none;
   color:white;
@@ -99,7 +99,27 @@ body {
   font-size: 1rem;
 }
 
-@media (min-width: 768px) {
+.email{
+  width: 450px;
+  height: 60px;
+  color: black;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  border-color: white;
+}
+
+.get_started{
+  font-size: large;
+  width:170px ;
+  height: 60px ;
+  background-color: #dc030f;
+  border: 1px solid #dc030f;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+}
+
+@media (min-width: 760px) {
   .hero__bg__image__container {
     height: 100vh;
   }
