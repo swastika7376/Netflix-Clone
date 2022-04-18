@@ -119,6 +119,134 @@ body {
   border-radius: 3px;
 }
 
+.card-1,
+.card-2,
+.card-3{
+    border-top: 8px rgb(69, 69, 69) solid;
+    padding: 50px;
+}
+.desc-0{
+  padding-left: 100px;
+}
+
+.card-1{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-1{
+  padding-left: 80px;
+}
+
+.style-cards h1{
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.style-cards h3{
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.card-1 video{
+  position: relative;
+  width: 100%;
+  height: 54%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+.card-1 img{
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.card-2{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 40% 50%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-2{
+  padding-left: 100px;
+}
+
+.card-3{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px 50px;
+}
+
+.desc-3{
+  padding-left: 80px;
+  padding-right: 20px;
+}
+
+.card-3 img{
+  width: 110%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.card-3 video{
+  position: relative;
+  top: -87px;
+  left: 125px;
+  width: 65%;
+  height: 78%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  z-index: -1;
+}
+
+  .footer {
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+  }
+  
+  .footer,
+  .footer a {
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  .footer p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .footer li {
+    line-height: 1.9;
+  }
+  
+  .footer .lang-select {
+    margin-top: 2rem;
+    color: #999;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #333;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+  }
+  
 @media (min-width: 760px) {
   .hero__bg__image__container {
     height: 100vh;
@@ -167,7 +295,4 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-}
-
-@media (min-width: 1254px) {
 }
